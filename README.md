@@ -27,6 +27,7 @@ The system is designed for managing student records in a modern web application 
 - Excel import and preview workflow for bulk student uploads
 - Email-based password reset flow
 - User profile management and gallery image support
+- Bulk gallery image upload from individual image files or ZIP archives
 - CORS-enabled API for local frontend integration
 
 ## Project Structure
@@ -142,6 +143,7 @@ npm run start
 - The backend CORS configuration allows requests from `http://localhost:5173`.
 - Student import routes support Excel uploads and preview before confirmation.
 - Email features depend on valid SMTP configuration and login/reset URLs.
+- User profile gallery supports adding photos individually or by uploading a ZIP archive containing image files.
 - The backend uses migration SQL files to manage database changes over time.
 
 ## Contributing
