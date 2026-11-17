@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background:
+    radial-gradient(ellipse at 8% 12%, rgb(169 229 207 / 36%), transparent 34rem),
+    radial-gradient(ellipse at 94% 38%, rgb(179 198 255 / 24%), transparent 30rem),
+    linear-gradient(135deg, #f8fbff 0%, #eff6f3 52%, #f5f5fc 100%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* used by components/SearchBar.tsx */
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border: 1px solid #c8ccd0;
+  border-radius: 6px;
+}
